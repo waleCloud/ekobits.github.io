@@ -1,5 +1,5 @@
 /*
-* ----------------------------------------------------------------------------------------                                     
+* ----------------------------------------------------------------------------------------
 * ----------------------------------------------------------------------------------------
 */
 
@@ -39,6 +39,7 @@
 /*
 * Bits Schools Styles footer
 */
+
 .img-bits{
     max-width: 140px;
     max-height: 140px;
@@ -358,7 +359,7 @@ a.read-more:hover {
     top: 50%;
     left: 16px;
     z-index: 1;
-    color: #ffffff;   
+    color: #ffffff;
 }
 
 
@@ -401,7 +402,7 @@ a.read-more:hover {
     width: 100%;
     z-index: 999;
     -webkit-transition: all 0.4s ease-out;
-    transition: all 0.4s ease-out;   
+    transition: all 0.4s ease-out;
 }
 
 .single-header{
@@ -1039,7 +1040,6 @@ a.slide-btn.other-btn:hover {
 
 .gallery figure.effect-bubba p {
     font-size: 16px;
-    text-transform: lowercase;
 }
 
 .gallery figure.effect-bubba p strong {
