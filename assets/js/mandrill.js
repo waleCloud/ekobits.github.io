@@ -17,7 +17,7 @@ function log(obj) {
     }
     else
     {
-    	alert("Please try again! "+response.status+' '+response.message);
+    	alert("Please try again! "+response.status+' '+response.message+' '+response.name);
     }
     
 }
