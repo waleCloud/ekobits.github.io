@@ -10,7 +10,16 @@ function log(obj) {
     var rep2 = rep1.replace(']','');
     
     var response = JSON.parse(rep2);
-    alert(response.status);
+
+    if(response.status === 'sent')
+    {
+    	alert("Thank You for contacting us! We will get back to you shortly.");
+    }
+    else
+    {
+    	alert("Please try again!");
+    }
+    
 }
 
 // create a new instance of the Mandrill class with your API key
