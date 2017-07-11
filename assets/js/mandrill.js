@@ -5,7 +5,12 @@
 // A mandrill script for 
 // Create a function to log the response from the Mandrill API
 function log(obj) {
-    $('#response').text(JSON.stringify(obj));
+	var txt = JSON.stringify(obj);
+    var rep1 = txt.replace('[',' ');
+    var rep2 = rep1.replace(']','');
+    
+    var response = JSON.parse(rep2);
+    alert(response.status);
 }
 
 // create a new instance of the Mandrill class with your API key
@@ -27,9 +32,9 @@ var params = {
 };
 // Send the email!
     m.messages.send(params, function(res) {
-        alert(res);
+        log(res);
     }, function(err) {
-        alert(err);
+        log(err);
     });
 }
 // End function sendTheMail
