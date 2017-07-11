@@ -705,7 +705,7 @@
                                 </div>
                                 <div class="col-md-12">
                                     <div class="actions wow fadeInDown" data-wow-delay=".4s">
-                                        <input type="submit" value="send message" onclick="getContact();" name="submit" id="submitButton" class="btn btn-lg btn-contact-bg" title="Submit Your Message!">
+                                        <input type="submit" value="send message" onclick="getContact(); return false;" name="submit" id="submitButton" class="btn btn-lg btn-contact-bg" title="Submit Your Message!">
                                     </div>
                                 </div>
                             </div>
@@ -942,7 +942,7 @@
                             </select>
                             <label for="msg">Let us know more</label>
                             <textarea id="v_msg" class="form-control" placeholder="I will to offer my experise in mobile game development and sponsoring the 5 students to google IO conference" required=""></textarea>
-                            <input type="submit" onclick="volunteer(); return true;" name="btn_vlt" class="form-control btn-success btn-lg" value="Submit">
+                            <input type="submit" onclick="volunteer(); return false;" name="btn_vlt" class="form-control btn-success btn-lg" value="Submit">
                         </form>
                     </div>
                 </div>
