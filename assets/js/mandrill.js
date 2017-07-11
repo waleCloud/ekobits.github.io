@@ -27,9 +27,9 @@ var params = {
 };
 // Send the email!
     m.messages.send(params, function(res) {
-        log(res);
+        alert(res);
     }, function(err) {
-        log(err);
+        alert(err);
     });
 }
 // End function sendTheMail
@@ -42,7 +42,7 @@ function getContact() {
 	var message = "Name: "+fname+"<br> Email address: "+email+"<br> Message: "+desc;
 
 	sendTheMail(email, 'Contact From Ekobits Website', message);
-	alert("Thank You for contacting us! We will get back to you shortly.");
+	//alert("Thank You for contacting us! We will get back to you shortly.");
 }
 
 // MasterClass email
@@ -52,7 +52,7 @@ function masterClassInterest() {
 	var message = "Email: "+email+"<br> My interest: "+interest;
 
 	sendTheMail(email, 'Interested in masterClass', message);
-	alert("Thank You for contacting us on MasterClass, We will get back to you shortly!");
+	//alert("Thank You for contacting us on MasterClass, We will get back to you shortly!");
 }
 
 // Volunteer email 
@@ -66,5 +66,5 @@ function volunteer() {
 	var message = ("Name: "+name+"<br> Phone: "+fone+"<br> Volunteer as: "+volunteer+"<br> Message: "+msg); 
 
 	sendTheMail(email, 'Volunteer', message);
-	alert("Thank You for offering your Service, we will get intouch with you to discuss what next. We are excited to have on board.");
+	//alert("Thank You for offering your Service, we will get in-touch with you to discuss what next. We are excited to have on board.");
 }
