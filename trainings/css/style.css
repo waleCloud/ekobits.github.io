@@ -1,0 +1,136 @@
+html,body {
+	height: 100%;
+	width: 100%
+	font-family: roboto, roboto;
+	font-style: roboto;
+	background-color: #FFFAFB;
+	background-size: cover;
+	color: #fff;
+}
+
+.row1 {
+	background: #009933;
+	margin: auto;
+}
+.row2 {
+	background: #ffcc00;
+}
+/*
+/* Smartphones (portrait and landscape) ----------- 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* STYLES GO HERE 
+.row1 {
+	background-color: #009933;
+	height: 180px;
+	margin: auto;
+}
+.row2 {
+	background-color: #FFcc00;
+	height: 180px;
+	margin: auto;
+}
+.row3 {
+	background-color: #00ff39;
+	height: 180px;
+	margin: auto;
+}
+}
+ 
+/* Smartphones (landscape) ----------- 
+@media only screen
+and (min-width : 321px) {
+/* STYLES GO HERE 
+.row1 {
+	background-color: #009933;
+	height: 180px;
+	margin: auto;
+}
+.row2 {
+	background-color: #FFcc00;
+	height: 180px;
+	margin: auto;
+}
+.row3 {
+	background-color: #00ff39;
+	height: 180px;
+	margin: auto;
+}
+}
+ 
+/* Smartphones (portrait) ----------- 
+@media only screen
+and (max-width : 320px) {
+/* STYLES GO HERE 
+.row1 {
+	background-color: #009933;
+	height: 180px;
+	margin: auto;
+}
+.row2 {
+	background-color: #FFcc00;
+	height: 180px;
+	margin: auto;
+}
+.row3 {
+	background-color: #00ff39;
+	height: 180px;
+	margin: auto;
+}
+}
+ 
+/* iPads (portrait and landscape) ----------- 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* STYLES GO HERE 
+
+}
+ 
+/* iPads (landscape) ----------- 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* STYLES GO HERE 
+}
+ 
+/* iPads (portrait) ----------- 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* STYLES GO HERE 
+}
+ 
+/* Desktops and laptops ----------- 
+@media only screen
+and (min-width : 1224px) {
+/* STYLES GO HERE 
+.row1 {
+	background-color: #009933;
+	height: 200px;
+	margin: auto;
+}
+.row2 {
+	background-color: #FFcc00;
+	height: 300px;
+	margin: auto;
+}
+.row3 {
+	background-color: #00ff39;
+	height: 300px;
+	margin: auto;
+}
+}
+
+.logoLeft {
+	top: 0;
+	margin-left: 20px;
+}
+.container {
+	left: 0px;
+	top:0px;
+
+}*/

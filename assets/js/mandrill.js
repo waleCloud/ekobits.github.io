@@ -13,11 +13,11 @@ function log(obj) {
 
     if(response.status === 'sent')
     {
-    	alert("Thank You for contacting us! We will get back to you shortly.");
+        alert("Thank You for contacting us! We will get back to you shortly.");
     }
     else
     {
-    	alert("Please try again! "+response.status+' '+response.message+' '+response.name);
+        alert("Please try again! "+response.status+' '+response.message+' '+response.name);
     }
     
 }
@@ -55,7 +55,7 @@ function getContact() {
 	var desc = document.getElementById('description').value;
 	var message = "Name: "+fname+"<br> Email address: "+email+"<br> Message: "+desc;
 
-	sendTheMail(email, 'Contact From Ekobits Website', message);
+	sendTheMail('hello@ekobits.academy', 'Contact From Ekobits Website', message);
 	//alert("Thank You for contacting us! We will get back to you shortly.");
 }
 
@@ -65,7 +65,7 @@ function masterClassInterest() {
 	var interest = document.getElementById('ms_interest').value;
 	var message = "Email: "+email+"<br> My interest: "+interest;
 
-	sendTheMail(email, 'Interested in masterClass', message);
+	sendTheMail('hello@ekobits.academy', 'Interested in masterClass', message);
 	//alert("Thank You for contacting us on MasterClass, We will get back to you shortly!");
 }
 
@@ -79,6 +79,6 @@ function volunteer() {
 
 	var message = ("Name: "+name+"<br> Phone: "+fone+"<br> Volunteer as: "+volunteer+"<br> Message: "+msg); 
 
-	sendTheMail(email, 'Volunteer', message);
+	sendTheMail('hello@ekobits.academy', 'Volunteer', message);
 	//alert("Thank You for offering your Service, we will get in-touch with you to discuss what next. We are excited to have on board.");
 }
