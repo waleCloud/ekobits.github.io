@@ -89,4 +89,8 @@ function volunteer() {
     document.getElementById('v_email').innerHTML = '';
     document.getElementById('v_phone').innerHTML = '';
     document.getElementById('v_msg').innerHTML = '';
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3bf94e557fb8c5244928febe05b1a8ab85e973e6
