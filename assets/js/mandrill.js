@@ -57,6 +57,9 @@ function getContact() {
 
 	sendTheMail('hello@ekobits.academy', 'Contact From Ekobits Website', message);
 	//alert("Thank You for contacting us! We will get back to you shortly.");
+    document.getElementById('first-name').innerHTML = '';
+    document.getElementById('email').innerHTML = '';
+    document.getElementById('description').innerHTML = '';
 }
 
 // MasterClass email
@@ -67,6 +70,7 @@ function masterClassInterest() {
 
 	sendTheMail('hello@ekobits.academy', 'Interested in masterClass', message);
 	//alert("Thank You for contacting us on MasterClass, We will get back to you shortly!");
+    document.getElementById('ms_email').innerHTML = '';
 }
 
 // Volunteer email 
@@ -81,4 +85,8 @@ function volunteer() {
 
 	sendTheMail('hello@ekobits.academy', 'Volunteer', message);
 	//alert("Thank You for offering your Service, we will get in-touch with you to discuss what next. We are excited to have on board.");
+    document.getElementById('v_name').innerHTML = '';
+    document.getElementById('v_email').innerHTML = '';
+    document.getElementById('v_phone').innerHTML = '';
+    document.getElementById('v_msg').innerHTML = '';
 }
