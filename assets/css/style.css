@@ -36,7 +36,8 @@
 }
 
 .overlay .overlay-content button {
-    size: 80px;
+    text-transform: uppercase;
+    font-style:bold;
 }
 
 #overlay {

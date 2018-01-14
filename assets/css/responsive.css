@@ -230,4 +230,20 @@
     .column {
         width: 100%;
     }
+
+    .overlay .overlay-content h1 {
+    font-size: 40px;
+    }
+
+    .overlay .overlay-content h2 {
+        font-size: 30px;
+    }
+
+    .overlay .overlay-content h3 {
+        font-size: 20px;
+    }
+
+    .overlay .overlay-content button {
+      
+    }
 }
