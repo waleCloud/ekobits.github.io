@@ -10,7 +10,7 @@
     <meta name="keywords" content="Ekobits, Walecloud, ekobits academy, ict design, nigeria,">
     <meta name="author" content="Ekobits Walecloud">
     <!-- PAGE TITLE -->
-    <title>Ekobits Academy</title>
+    <title>Ekobits Academy - Leveraging on technology to change lives</title>
     <!-- FAVICON AND IPHONE APP ICON -->
      <link rel="icon" href="assets/images/ekobits.png" type="image/x-icon">
      <link rel="apple-touch-icon" sizes="57x57" href="assets/images/apple-touch-icon-57.png" />
@@ -52,6 +52,15 @@
         </div>
     </div>-->
     <!-- END PRELOADER AREA -->
+        <div id="overlay" class="overlay" onclick="closeNav()">
+        <div class="overlay-content">
+         <h1>Leveraging on <span style="color:#FFEA54;">technology</span></h1>
+         <h2> to <span style="color:#FFEA54;">Save lives</span></h2>
+         <h1> in the <span style="color:#FFEA54;">Slums</span> of Nigeria</h1>
+         <button style="text-transform: uppercase; font-size:40px; font-style:bold;" class="btn-lg btn-success">Make a change </button>
+         <h3>Help us achieve this</h3>
+        </div>
+      </div>
 
     <!-- START HOMEPAGE DESIGN AREA -->
     <header id="home" class="welcome-area">
@@ -117,6 +126,32 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
+                                <div class="single-slide-item slide-3" data-stellar-background-ratio="0.6">
+                                    <div class="single-slide-item-table">
+                                        <div class="single-slide-item-tablecell">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="header-text text-center">
+                                                            <p class="cd-headline clip is-full-width">
+                                                            <span class="cd-words-wrapper">
+                                                                <b class="is-visible">WE FEED</b>
+                                                                <b>WE TRAIN</b>
+                                                                <b>WE GET THEM JOBS</b>
+                                                            </span>
+                                                        </p>
+                                                            <h2> FOR FREE.</h2>
+                                                            <p class="slide-btn smoth-scroll">Support us to keep going and reach more slum communities</p>
+                                                            <a class="btn-lg btn-success smoth-scroll" href="#contact">CHANGE A LIFE</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    <div class="item">
                         <div class="single-slide-item slide-1" data-stellar-background-ratio="0.6">
                             <div class="single-slide-item-table">
                                 <div class="single-slide-item-tablecell">
@@ -970,6 +1005,10 @@
     <script type="text/javascript" src="https://mandrillapp.com/api/docs/js/mandrill.js"></script>
     <!-- My Mandrill js -->
     <script type="text/javascript" src="assets/js/mandrill.js"></script>
-
+    <script>     
+        function closeNav() {
+            document.getElementById("overlay").style.width = "0%";
+        }
+    </script>
 </body>
 </html>
