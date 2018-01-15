@@ -231,8 +231,14 @@
         width: 100%;
     }
 
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 75px;
+        right: 35px;
+    }
+
     .overlay .overlay-content h1 {
-    font-size: 40px;
+        font-size: 40px;
     }
 
     .overlay .overlay-content h2 {
@@ -244,6 +250,7 @@
     }
 
     .overlay .overlay-content button {
-      
+        text-transform: uppercase;
+        font-style:bold;
     }
 }
